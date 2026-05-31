@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon de coiffure</title>
+</head>
+<body id="page-home">
+  <header id="site-header" class="site-header">
+    <div class="brand-block">
+      <h1 id="welcome-title" class="welcome-title">BIENVENU</h1>
+    </div>
+    <nav id="main-nav" class="main-nav">
+      <a id="nav-home" class="nav-link" href="#accueil">Accueil</a> |
+      <a id="nav-male-hair" class="nav-link" href="#coiffures-homme">Coiffures Homme</a> |
+      <a id="nav-female-hair" class="nav-link" href="#coiffures-femme">Coiffures Femme</a> |
+      <a id="nav-male-skin" class="nav-link" href="#soins-visage-homme">Soins Visage Homme</a> |
+      <a id="nav-female-skin" class="nav-link" href="#soins-visage-femme">Soins Visage Femme</a> |
+      <a id="nav-login" class="nav-link" href="#login">Login</a> |
+      <a id="nav-signup" class="nav-link" href="#connexion">Connexion</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="main-content">
+    <section id="accueil" class="page-section section-accueil">
+      <h2 class="section-title">Accueil</h2>
+      <p class="section-description">Bienvenue sur notre salon de coiffure. Choisissez une catégorie pour voir les services et cliquez sur une image pour accéder à la réservation.</p>
+      <div class="service-grid" id="featured-services">
+        <article id="home-service-female" class="service-card service-card--female">
+          <h3 class="service-title">Coiffure femme</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Coiffure+Femme" alt="Coiffure femme" /></a>
+          <p class="service-description">Une coupe élégante et moderne pour sublimer votre style.</p>
+          <p class="service-price">Prix : 35€</p>
+        </article>
+        <article id="home-service-male-skin" class="service-card service-card--male-skin">
+          <h3 class="service-title">Soin visage homme</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Soin+Visage+Homme" alt="Soin visage homme" /></a>
+          <p class="service-description">Un soin rafraîchissant spécialement conçu pour la peau masculine.</p>
+          <p class="service-price">Prix : 28€</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="coiffures-homme" class="page-section section-services section-services--male">
+      <h2 class="section-title">Coiffures Homme</h2>
+      <div class="service-grid" id="male-hair-services">
+        <article id="service-male-1" class="service-card">
+          <h3 class="service-title">Dégradé classique</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Dégradé+Classique" alt="Dégradé classique" /></a>
+          <p class="service-description">Coupe homme moderne avec dégradé net.</p>
+          <p class="service-price">Prix : 30€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+        <article id="service-male-2" class="service-card">
+          <h3 class="service-title">Coupe texturée</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Coupe+Texturée" alt="Coupe texturée" /></a>
+          <p class="service-description">Coupe courte texturée pour un look dynamique.</p>
+          <p class="service-price">Prix : 32€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="coiffures-femme" class="page-section section-services section-services--female">
+      <h2 class="section-title">Coiffures Femme</h2>
+      <div class="service-grid" id="female-hair-services">
+        <article id="service-female-1" class="service-card">
+          <h3 class="service-title">Coupe longue lissée</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Coupe+Longue+Lissée" alt="Coupe longue lissée" /></a>
+          <p class="service-description">Un style raffiné qui met en valeur la longueur.</p>
+          <p class="service-price">Prix : 40€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+        <article id="service-female-2" class="service-card">
+          <h3 class="service-title">Bob moderne</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Bob+Moderne" alt="Bob moderne" /></a>
+          <p class="service-description">Coupe courte chic et tendance.</p>
+          <p class="service-price">Prix : 38€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="soins-visage-homme" class="page-section section-services section-services--male-skin">
+      <h2 class="section-title">Soins Visage Homme</h2>
+      <div class="service-grid" id="male-skin-services">
+        <article id="service-male-skin-1" class="service-card">
+          <h3 class="service-title">Soin hydratant</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Soin+Hydratant" alt="Soin hydratant homme" /></a>
+          <p class="service-description">Soin visage rafraîchissant pour homme avec hydratation profonde.</p>
+          <p class="service-price">Prix : 28€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+        <article id="service-male-skin-2" class="service-card">
+          <h3 class="service-title">Soin purifiant</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Soin+Purifiant" alt="Soin purifiant homme" /></a>
+          <p class="service-description">Nettoyage profond et purification de la peau masculine.</p>
+          <p class="service-price">Prix : 30€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="soins-visage-femme" class="page-section section-services section-services--female-skin">
+      <h2 class="section-title">Soins Visage Femme</h2>
+      <div class="service-grid" id="female-skin-services">
+        <article id="service-female-skin-1" class="service-card">
+          <h3 class="service-title">Soin éclat</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Soin+Éclat" alt="Soin éclat femme" /></a>
+          <p class="service-description">Soin visage éclatant pour une peau lumineuse.</p>
+          <p class="service-price">Prix : 35€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+        <article id="service-female-skin-2" class="service-card">
+          <h3 class="service-title">Soin liftant</h3>
+          <a class="service-link" href="#reservation"><img class="service-image" src="https://via.placeholder.com/520x320?text=Soin+Liftant" alt="Soin liftant femme" /></a>
+          <p class="service-description">Soin visage anti-âge et lifting doux.</p>
+          <p class="service-price">Prix : 42€</p>
+          <p class="service-action"><a class="action-link" href="#reservation">Réserver ce service</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reservation" class="page-section section-reservation">
+      <h2 class="section-title">Réservation</h2>
+      <p class="section-description">Pour réserver, sélectionnez un service et notez vos informations dans le formulaire ci-dessous.</p>
+      <form id="reservation-form" class="reservation-form">
+        <div class="form-group">
+          <label for="service" class="form-label">Service choisi :</label>
+          <input id="service" name="service" type="text" class="form-input" placeholder="Nom du service" />
+        </div>
+        <div class="form-group">
+          <label for="nom" class="form-label">Nom :</label>
+          <input id="nom" name="nom" type="text" class="form-input" placeholder="Votre nom" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">E-mail :</label>
+          <input id="email" name="email" type="email" class="form-input" placeholder="exemple@domaine.com" />
+        </div>
+        <div class="form-actions">
+          <button id="reservation-submit" class="form-button" type="submit">Envoyer la réservation</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="login" class="page-section section-login">
+      <h2 class="section-title">Login</h2>
+      <form id="login-form" class="auth-form">
+        <div class="form-group">
+          <label for="login-email" class="form-label">Adresse e-mail :</label>
+          <input id="login-email" name="login-email" type="email" class="form-input" placeholder="exemple@domaine.com" />
+        </div>
+        <div class="form-group">
+          <label for="login-password" class="form-label">Mot de passe :</label>
+          <input id="login-password" name="login-password" type="password" class="form-input" placeholder="Mot de passe" />
+        </div>
+        <div class="form-actions">
+          <button id="login-submit" class="form-button" type="submit">Se connecter</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="connexion" class="page-section section-signup">
+      <h2 class="section-title">Connexion</h2>
+      <form id="signup-form" class="auth-form">
+        <div class="form-group">
+          <label for="signup-name" class="form-label">Nom complet :</label>
+          <input id="signup-name" name="signup-name" type="text" class="form-input" placeholder="Votre nom" />
+        </div>
+        <div class="form-group">
+          <label for="signup-email" class="form-label">Adresse e-mail :</label>
+          <input id="signup-email" name="signup-email" type="email" class="form-input" placeholder="exemple@domaine.com" />
+        </div>
+        <div class="form-group">
+          <label for="signup-password" class="form-label">Mot de passe :</label>
+          <input id="signup-password" name="signup-password" type="password" class="form-input" placeholder="Choisissez un mot de passe" />
+        </div>
+        <div class="form-actions">
+          <button id="signup-submit" class="form-button" type="submit">Créer un compte</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
