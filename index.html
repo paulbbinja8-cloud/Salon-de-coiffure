@@ -9,187 +9,46 @@
 <body id="page-home">
   <header id="site-header" class="site-header">
     <div class="brand-block">
-      <h1 id="welcome-title" class="welcome-title">Salon de coiffure - Bukavu</h1>
+      <h1 id="welcome-title" class="welcome-title">Salon de coiffure Bukavu</h1>
       <nav id="main-nav" class="main-nav">
-        <a id="nav-home" class="nav-link" href="#accueil">Accueil</a>
-        <a id="nav-male-hair" class="nav-link" href="#coiffures-homme">Coiffures Homme</a>
-        <a id="nav-female-hair" class="nav-link" href="#coiffures-femme">Coiffures Femme</a>
-        <a id="nav-male-skin" class="nav-link" href="#soins-visage-homme">Soins Visage Homme</a>
-        <a id="nav-female-skin" class="nav-link" href="#soins-visage-femme">Soins Visage Femme</a>
-        <a id="nav-reservation" class="nav-link" href="#reservation">Réservation</a>
-        <a id="nav-login" class="nav-link" href="#login">Login</a>
-        <a id="nav-signup" class="nav-link" href="#connexion">Connexion</a>
+        <a class="nav-link nav-link--active" href="index.html">Accueil</a>
+        <a class="nav-link" href="services.html">Services</a>
       </nav>
     </div>
   </header>
 
   <main id="main-content" class="main-content">
-    <section id="accueil" class="page-section section-accueil">
-      <h2 class="section-title">Accueil</h2>
-      <p class="section-description">Bienvenue au Salon de coiffure de Bukavu. Notre salon se trouve à Bukavu, République démocratique du Congo (RDC). Nous proposons des coiffures et soins visage pour hommes et femmes, avec un service soigné et des produits de qualité.</p>
-      <p class="section-description"><strong>Adresse :</strong> Quartier Kadutu, Bukavu, RDC. <strong>Téléphone :</strong> +243 82 000 0000</p>
-      <div class="service-grid" id="featured-services">
-        <article id="home-service-1" class="service-card">
-          <h3 class="service-title">Exemple — Coupe femme</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coupe femme exemple" /></a>
-          <p class="service-description">Coupe élégante, brushing et conseils coiffure.</p>
-          <p class="service-price service-price--female">Prix : $35</p>
-        </article>
-        <article id="home-service-2" class="service-card">
-          <h3 class="service-title">Exemple — Coupe homme</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coupe homme exemple" /></a>
-          <p class="service-description">Dégradé moderne et finition personnalisée.</p>
-          <p class="service-price service-price--male">Prix : $15</p>
+    <section class="page-section hero-section">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Bienvenue</p>
+        <h2 class="hero-title">Votre salon premium pour coiffures afro à Bukavu</h2>
+        <p class="hero-subtitle">Un espace chaleureux, des styles maîtrisés, et des prestations taillées pour valoriser la beauté noire.</p>
+        <div class="hero-actions">
+          <a class="hero-button" href="services.html">Découvrir les services</a>
+          <a class="hero-button hero-button--ghost" href="services.html">Voir les coiffures afro</a>
+        </div>
+      </div>
+      <div class="hero-preview">
+        <article class="service-card service-preview-card">
+          <img class="photo" src="https://source.unsplash.com/800x600/?afro-hair,black-woman" alt="Salon coiffure afro" />
+          <p class="model-caption">Une inspiration afro pour votre prochain rendez-vous.</p>
         </article>
       </div>
     </section>
 
-    <section id="coiffures-homme" class="page-section page-section--tab">
-      <h2 class="section-title">Coiffures Homme</h2>
-      <div class="service-grid">
-        <article id="service-male-1" class="service-card">
-          <h3 class="service-title">Dégradé classique</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1548215170-02a7b64b2a61?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Dégradé classique" /></a>
-          <p class="service-description">Coupe moderne avec dégradé net.</p>
-          <p class="service-price service-price--male">Prix : $15</p>
-        </article>
-        <article id="service-male-2" class="service-card">
-          <h3 class="service-title">Coupe texturée</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1520975929397-0b3f3be39f2f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coupe texturée" /></a>
-          <p class="service-description">Coupe courte texturée pour un rendu moderne.</p>
-          <p class="service-price service-price--male">Prix : $12</p>
-        </article>
-        <article id="service-male-3" class="service-card">
-          <h3 class="service-title">Coupe courte</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coupe courte" /></a>
-          <p class="service-description">Style rapide et facile d'entretien.</p>
-          <p class="service-price service-price--male">Prix : $10</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="coiffures-femme" class="page-section page-section--tab">
-      <h2 class="section-title">Coiffures Femme</h2>
-      <div class="service-grid">
-        <article id="service-female-1" class="service-card">
-          <h3 class="service-title">Coupe longue lissée</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coupe longue lissée" /></a>
-          <p class="service-description">Finition lisse et brillante pour sublimer la longueur.</p>
-          <p class="service-price service-price--female">Prix : $40</p>
-        </article>
-        <article id="service-female-2" class="service-card">
-          <h3 class="service-title">Bob moderne</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Bob moderne" /></a>
-          <p class="service-description">Coupe courte et structurée pour un look contemporain.</p>
-          <p class="service-price service-price--female">Prix : $38</p>
-        </article>
-        <article id="service-female-3" class="service-card">
-          <h3 class="service-title">Coiffure soirée</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1522337644046-60c1d18b0b2f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Coiffure soirée" /></a>
-          <p class="service-description">Chignon ou ondulations glamour pour événements.</p>
-          <p class="service-price service-price--female">Prix : $40</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="soins-visage-homme" class="page-section page-section--tab">
-      <h2 class="section-title">Soins Visage Homme</h2>
+    <section class="page-section">
+      <h2 class="section-title">Pourquoi choisir notre salon</h2>
       <div class="service-grid">
         <article class="service-card">
-          <h3 class="service-title">Soin hydratant</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Soin hydratant homme" /></a>
-          <p class="service-description">Hydratation et apaisement pour peaux masculines.</p>
-          <p class="service-price service-price--male">Prix : $15</p>
+          <h3 class="service-title">Expertise afro</h3>
+          <p class="service-description">Des spécialistes formés aux textures naturelles et aux coupes afro modernes.</p>
         </article>
         <article class="service-card">
-          <h3 class="service-title">Soin purifiant</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Soin purifiant homme" /></a>
-          <p class="service-description">Nettoyage profond et éclat du teint.</p>
-          <p class="service-price service-price--male">Prix : $15</p>
+          <h3 class="service-title">Ambiance locale</h3>
+          <p class="service-description">Un cadre élégant et convivial, pensé pour la clientèle de Bukavu et de toute la région.</p>
         </article>
       </div>
     </section>
-
-    <section id="soins-visage-femme" class="page-section page-section--tab">
-      <h2 class="section-title">Soins Visage Femme</h2>
-      <div class="service-grid">
-        <article class="service-card">
-          <h3 class="service-title">Soin éclat</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Soin éclat femme" /></a>
-          <p class="service-description">Soin illuminant pour un teint frais et lumineux.</p>
-          <p class="service-price service-price--female">Prix : $35</p>
-        </article>
-        <article class="service-card">
-          <h3 class="service-title">Soin liftant</h3>
-          <a class="service-link" href="#reservation"><img class="photo" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Soin liftant femme" /></a>
-          <p class="service-description">Soin tonifiant et raffermissant doux.</p>
-          <p class="service-price service-price--female">Prix : $40</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="reservation" class="page-section section-reservation">
-      <h2 class="section-title">Réservation</h2>
-      <p class="section-description">Sélectionnez un service et remplissez le formulaire ci-dessous pour envoyer une demande de réservation.</p>
-      <form id="reservation-form" class="reservation-form">
-        <div class="form-group">
-          <label for="service" class="form-label">Service choisi :</label>
-          <input id="service" name="service" type="text" class="form-input" placeholder="Nom du service" />
-        </div>
-        <div class="form-group">
-          <label for="nom" class="form-label">Nom :</label>
-          <input id="nom" name="nom" type="text" class="form-input" placeholder="Votre nom" />
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">E-mail :</label>
-          <input id="email" name="email" type="email" class="form-input" placeholder="exemple@domaine.com" />
-        </div>
-        <div class="form-actions">
-          <button id="reservation-submit" class="form-button" type="submit">Envoyer la réservation</button>
-        </div>
-      </form>
-    </section>
-
-    <section id="login" class="page-section section-login">
-      <h2 class="section-title">Login</h2>
-      <form id="login-form" class="auth-form">
-        <div class="form-group">
-          <label for="login-email" class="form-label">Adresse e-mail :</label>
-          <input id="login-email" name="login-email" type="email" class="form-input" placeholder="exemple@domaine.com" />
-        </div>
-        <div class="form-group">
-          <label for="login-password" class="form-label">Mot de passe :</label>
-          <input id="login-password" name="login-password" type="password" class="form-input" placeholder="Mot de passe" />
-        </div>
-        <div class="form-actions">
-          <button id="login-submit" class="form-button" type="submit">Se connecter</button>
-        </div>
-      </form>
-    </section>
-
-    <section id="connexion" class="page-section section-signup">
-      <h2 class="section-title">Connexion</h2>
-      <form id="signup-form" class="auth-form">
-        <div class="form-group">
-          <label for="signup-name" class="form-label">Nom complet :</label>
-          <input id="signup-name" name="signup-name" type="text" class="form-input" placeholder="Votre nom" />
-        </div>
-        <div class="form-group">
-          <label for="signup-email" class="form-label">Adresse e-mail :</label>
-          <input id="signup-email" name="signup-email" type="email" class="form-input" placeholder="exemple@domaine.com" />
-        </div>
-        <div class="form-group">
-          <label for="signup-password" class="form-label">Mot de passe :</label>
-          <input id="signup-password" name="signup-password" type="password" class="form-input" placeholder="Choisissez un mot de passe" />
-        </div>
-        <div class="form-actions">
-          <button id="signup-submit" class="form-button" type="submit">Créer un compte</button>
-        </div>
-      </form>
-    </section>
-
   </main>
-
-  <script src="app.js" defer></script>
 </body>
 </html>
