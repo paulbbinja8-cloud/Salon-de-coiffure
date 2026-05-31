@@ -21,7 +21,7 @@ body {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text);
   background-image: linear-gradient(180deg, rgba(14, 12, 17, 0.82), rgba(14, 12, 17, 0.96)),
-    url('https://source.unsplash.com/1600x900/?hair-salon,interior,barber');
+    url('https://images.pexels.com/photos/3026806/pexels-photo-3026806.jpeg?auto=compress&cs=tinysrgb&w=1600');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
